@@ -12,7 +12,7 @@ jobs:
     - name: Downloading Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/johntechofficial/JohnTechFreeRDP/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/MrER0R/freevps/main/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/johntechofficial/JohnTechFreeRDP/main/wallpaper.jpg -OutFile wallpaper.jpg
         Invoke-WebRequest https://raw.githubusercontent.com/johntechofficial/JohnTechFreeRDP/main/wallpaper.bat -OutFile wallpaper.bat
     - name: Extracting Ngrok Files.
